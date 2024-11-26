@@ -14,17 +14,16 @@ TopCryptoGainersAndLosersNewsletter is a Python-based application that fetches c
    git clone https://github.com/yourusername/TopCryptoGainersAndLosersNewsletter.git
    cd TopCryptoGainersAndLosersNewsletter
    
-Install dependencies:
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-pip install -r requirements.txt
+3. Configure the config.ini file with your email credentials.
 
-Configure the config.ini file with your email credentials.
+4. Set up Google Sheets:
+   ```bash
+   Share your Google Sheet with the service account email in credentials.json.
 
-Set up Google Sheets:
-
-    Share your Google Sheet with the service account email in credentials.json.
-
-Run the script:
-
-python main.py
-
+5. Run the script:
+   ```bash
+   python main.py
